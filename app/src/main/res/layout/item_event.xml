@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/textViewLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome do local"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/textViewEventType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo de evento"
+        android:textSize="16sp"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/textViewImpactLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grau de impacto"
+        android:textSize="16sp"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/textViewEventDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data do evento"
+        android:textSize="16sp"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/textViewPeopleCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número de pessoas afetadas"
+        android:textSize="16sp"
+        android:paddingBottom="4dp"/>
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Excluir"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_red_light"
+        android:layout_gravity="end"/>
+
+</LinearLayout>
